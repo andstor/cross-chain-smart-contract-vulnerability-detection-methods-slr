@@ -1,0 +1,39 @@
+\documentclass[british,titlepage]{ntnuthesis}
+
+\title{An NTNU Thesis \LaTeX{} Document Class}
+\shorttitle{An NTNU Thesis Document Class}
+\author{Community of Practice in Computer Science Education at NTNU}
+\shortauthor{CoPCSE$@$NTNU}
+\date{CC-BY \ntnuthesisdate}
+
+\addbibresource{thesis.bib}
+
+\input{glossary.tex} % add glossary and acronym lists before document
+
+\begin{document}
+
+\input{chapters/0a-abstract.tex}
+\input{chapters/0b-sammendrag.tex}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\printglossary[type=\acronymtype] % Print acronyms
+\printglossary                    % Print glossary
+
+\input{chapters/1-introduction}
+\input{chapters/2-usage.tex}
+\input{chapters/3-structure.tex}
+\input{chapters/4-conclusion.tex}
+
+\chapter*{\bibname}
+\printbibliography[heading=none]
+
+\input{chapters/papers.tex}
+
+\appendix
+\input{appendices/a-appendix.tex}
+
+\end{document}
