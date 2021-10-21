@@ -1,0 +1,8 @@
+\ProvidesFile{listings-yaml.prf}
+    [listings language file]
+
+\definecolor{YAMLcolonstyle}{RGB}{255,0,0}
+\definecolor{YAMLkeystyle}{RGB}{0, 0, 0}
+\definecolor{YAMLvaluestyle}{RGB}{4, 81,165}
+
+\endinput

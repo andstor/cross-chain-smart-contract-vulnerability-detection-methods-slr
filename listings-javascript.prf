@@ -1,0 +1,19 @@
+\ProvidesFile{listings-javascript.prf}
+    [listings language file]
+
+\definecolor{jskeywords}{HTML}{D73A49}
+\definecolor{jsextkeywords}{HTML}{6F42C1}% JavaScript extended keywords
+
+\definecolor{jsidentifiers}{HTML}{000000} % identfiers
+\definecolor{jsstring}{HTML}{032F62} % string literals
+\definecolor{jsnumbers}{HTML}{005CC5} % numbers
+\definecolor{allcomment}{HTML}{808080} % comment
+
+\definecolor{nodejs}{HTML}{629755} % Nodejs keywords
+\definecolor{testing}{HTML}{4169E1} % Node.js assert, jasmine
+\definecolor{express}{HTML}{FF8C69} % Express.js
+\definecolor{linenumber}{HTML}{996515} % line number
+\definecolor{apricot}{HTML}{98777B} % numbers
+
+\definecolor{captioncolor}{rgb}{0.39, 0.33, 0.32} % caption color
+\endinput

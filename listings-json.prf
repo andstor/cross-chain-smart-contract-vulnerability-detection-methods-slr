@@ -1,0 +1,8 @@
+\ProvidesFile{listings-json.prf}
+    [listings language file]
+
+\definecolor{jsondelim}{RGB}{0,0,0}
+\definecolor{jsonnumb}{RGB}{9, 134, 88}
+\definecolor{jsonstring}{RGB}{4, 81,165}
+
+\endinput

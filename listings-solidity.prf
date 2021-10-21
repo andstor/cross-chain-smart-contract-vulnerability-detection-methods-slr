@@ -1,0 +1,4 @@
+\ProvidesFile{listings-solidity.prf}
+    [listings language file]
+    
+\endinput
